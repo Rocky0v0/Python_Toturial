@@ -31,15 +31,22 @@
 # print(name.find('s'))
 
 # if语句练习
-temp = int(input('Enter the temperature: '))
-if temp > 30:
-    print("it's a hot day")
-elif temp < 10:
-    print("it's a cold day")
-else:
-    print('its neither hot or cold')
+# temp = int(input('Enter the temperature: '))
+# if temp > 30:
+#     print("it's a hot day")
+# elif temp < 10:
+#     print("it's a cold day")
+# else:
+#     print('its neither hot or cold')
 
-#1233
+name = input('Enter your name please: ')
+if len(name) < 3:
+    print('Name must be at least 3 characters')
+elif len(name) > 10:
+    print('Name can be a maximum of 50 characters')
+else:
+    print('name looks good')
+
 
 
 
