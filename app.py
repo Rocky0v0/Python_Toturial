@@ -47,7 +47,7 @@ elif len(name) > 10:
 else:
     print('name looks good')
     print('Rocky so handsome')
-
+    print('Rockysosohandsome')
 
 
 
