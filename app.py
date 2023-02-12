@@ -46,6 +46,8 @@ elif len(name) > 10:
     print('Name can be a maximum of 50 characters')
 else:
     print('name looks good')
+    print('Rocky so handsome')
+
 
 
 
