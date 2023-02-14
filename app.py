@@ -51,7 +51,7 @@
 
 is_quit = False
 while not is_quit:
-    user_input = input()
+    user_input = input().lower()
     if user_input == 'start':
         print('Car started...Ready to go!')
     elif user_input == 'stop':
