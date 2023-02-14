@@ -114,4 +114,11 @@
 #     for y in x:
 #         print(y)
 
+# 移除数组中的相同数字
+numbers = [2, 2, 4, 6, 3, 4, 6, 1]
+new_array = []
+for item in numbers:
+    if item not in new_array:
+        new_array.append(item)
+print(new_array)
 
