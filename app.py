@@ -89,7 +89,8 @@
 # for循环嵌套练习
 numbers = [5, 2, 5, 2, 2]
 for item in numbers:
+    output = ''
     for item2 in range(item):
-        print('x', end='')
-    print()
+        output += 'x'
+    print(output)
 
