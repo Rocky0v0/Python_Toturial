@@ -48,30 +48,48 @@
 #     print('name looks good')
 
 # while loop 练习
+# is_quit = False
+# stop = True
+# while not is_quit:
+#     user_input = input().lower()
+#     if user_input == 'start':
+#         if stop:
+#             stop = False
+#             print('Car started...Ready to go!')
+#         else:
+#             print('Car already started')
+#     elif user_input == 'stop':
+#         if stop:
+#             print('Car already stop')
+#         else:
+#             stop = True
+#             print('Car stop')
+#     elif user_input == 'quit':
+#         is_quit = True
+#     else:
+#         print('I dont understand that')
 
-is_quit = False
-stop = True
-while not is_quit:
-    user_input = input().lower()
-    if user_input == 'start':
-        if stop:
-            stop = False
-            print('Car started...Ready to go!')
-        else:
-            print('Car already started')
-    elif user_input == 'stop':
-        if stop:
-            print('Car already stop')
-        else:
-            stop = True
-            print('Car stop')
-    elif user_input == 'quit':
-        is_quit = True
-    else:
-        print('I dont understand that')
+# for loop 练习
+# 1.遍历字符串
+# for item in "Rocky so handsome":
+#     print(item)
+# # 2.遍历数组
+# for item in ['Rocky', 'Lucia']:
+#     print(item)
+# # 3.通过range方法遍历设定的数字范围
+# for item in range(1,11):
+#     print(item)
+# # 使用for loop 计算数组中数字的和
+# prices = [10, 20, 30]
+# total_price = 0
+# for item in prices:
+#     total_price += item
+# print(total_price)
 
-
-
-
-
+# for循环嵌套练习
+numbers = [5, 2, 5, 2, 2]
+for item in numbers:
+    for item2 in range(item):
+        print('x', end='')
+    print()
 
