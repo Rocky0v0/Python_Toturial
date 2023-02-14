@@ -154,6 +154,21 @@ name = input('Enter your name: ')
 Test(name)
 
 
+# position argument & keyword argument
+def Test2(First_name, Last_name):
+    print(f'Hello {First_name} {Last_name}')
+
+
+# keyword argument使代码更佳容易读懂
+Test2(Last_name='Leung', First_name='Kilok')
+# keyword argument必须在position argument之后作为参数传递到函数中
+Test2('Leung', Last_name='Leung')
+
+
+
+
+
+
 
 
 
