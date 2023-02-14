@@ -50,12 +50,21 @@
 # while loop 练习
 
 is_quit = False
+status = ''
 while not is_quit:
     user_input = input().lower()
     if user_input == 'start':
-        print('Car started...Ready to go!')
+        if status == user_input:
+            print('Car already started')
+        else:
+            print('Car started...Ready to go!')
+            status = user_input
     elif user_input == 'stop':
-        print('Car stop')
+        if status == user_input:
+            print('Car already stop')
+        else:
+            print('Car stop')
+            status = user_input
     elif user_input == 'quit':
         is_quit = True
     else:
