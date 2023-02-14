@@ -87,10 +87,17 @@
 # print(total_price)
 
 # for循环嵌套练习
-numbers = [5, 2, 5, 2, 2]
-for item in numbers:
-    output = ''
-    for item2 in range(item):
-        output += 'x'
-    print(output)
+# numbers = [5, 2, 5, 2, 2]
+# for item in numbers:
+#     output = ''
+#     for item2 in range(item):
+#         output += 'x'
+#     print(output)
 
+# 找到数组中的最大数字
+# number_list = [3, 3, 4, 9, 9, 6, 8, 10, 100, 2, 1, 5, 13]
+# large_number = number_list[0]
+# for item in number_list:
+#     if item >= large_number:
+#         large_number = item
+# print(large_number)
