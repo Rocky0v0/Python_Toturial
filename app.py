@@ -115,10 +115,17 @@
 #         print(y)
 
 # 移除数组中的相同数字
-numbers = [2, 2, 4, 6, 3, 4, 6, 1]
-new_array = []
-for item in numbers:
-    if item not in new_array:
-        new_array.append(item)
-print(new_array)
+# numbers = [2, 2, 4, 6, 3, 4, 6, 1]
+# new_array = []
+# for item in numbers:
+#     if item not in new_array:
+#         new_array.append(item)
+# print(new_array)
 
+# unpacking功能：快速将元组，列表中的数据提取
+tuple1 = (1, 2, 3)
+x, y, z = tuple1
+print(x, y, z)
+list1 = [4, 5, 6]
+a, b, c = list1
+print(a, b, c)
