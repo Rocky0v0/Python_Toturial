@@ -136,12 +136,23 @@
 # print(customer.get('name'))
 
 # split方法：用于将字符串通过传递的字符隔开
-message = input('>').split(' ')
-emojis = {':)': '😀', ':(': '🥲'}
-out_put = ''
-for item in message:
-    out_put += emojis.get(item, item)
-print(out_put)
+# message = input('>').split(' ')
+# emojis = {':)': '😀', ':(': '🥲'}
+# out_put = ''
+# for item in message:
+#     out_put += emojis.get(item, item)
+# print(out_put)
+
+
+# 函数：形式参数和实际参数
+# 通过shift + F6 快速修改所有变量名
+def Test(name1):  # 形式参数
+    print(f'Go fuck yourself {name1}')  # 实际参数
+
+
+name = input('Enter your name: ')
+Test(name)
+
 
 
 
