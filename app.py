@@ -123,9 +123,26 @@
 # print(new_array)
 
 # unpacking功能：快速将元组，列表中的数据提取
-tuple1 = (1, 2, 3)
-x, y, z = tuple1
-print(x, y, z)
-list1 = [4, 5, 6]
-a, b, c = list1
-print(a, b, c)
+# tuple1 = (1, 2, 3)
+# x, y, z = tuple1
+# print(x, y, z)
+# list1 = [4, 5, 6]
+# a, b, c = list1
+# print(a, b, c)
+
+# 字典：将数据以键值对方式存储 key value pairs
+# get方法：传递一个键得到对应的值
+# customer = {'name': 'Rocky'}
+# print(customer.get('name'))
+
+# split方法：用于将字符串通过传递的字符隔开
+message = input('>').split(' ')
+emojis = {':)': '😀', ':(': '🥲'}
+out_put = ''
+for item in message:
+    out_put += emojis.get(item, item)
+print(out_put)
+
+
+
+
