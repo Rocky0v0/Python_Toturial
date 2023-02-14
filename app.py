@@ -39,14 +39,27 @@
 # else:
 #     print('its neither hot or cold')
 
-name = input('Enter your name please: ')
-if len(name) < 3:
-    print('Name must be at least 3 characters')
-elif len(name) > 10:
-    print('Name can be a maximum of 50 characters')
-else:
-    print('name looks good')
+# name = input('Enter your name please: ')
+# if len(name) < 3:
+#     print('Name must be at least 3 characters')
+# elif len(name) > 10:
+#     print('Name can be a maximum of 50 characters')
+# else:
+#     print('name looks good')
 
+# while loop 练习
+
+is_quit = False
+while not is_quit:
+    user_input = input()
+    if user_input == 'start':
+        print('Car started...Ready to go!')
+    elif user_input == 'stop':
+        print('Car stop')
+    elif user_input == 'quit':
+        is_quit = True
+    else:
+        print('I dont understand that')
 
 
 
