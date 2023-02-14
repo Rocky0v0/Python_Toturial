@@ -101,3 +101,17 @@
 #     if item >= large_number:
 #         large_number = item
 # print(large_number)
+
+# 数组矩阵
+# matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+# for x in matrix:
+#     print(x)
+#     for y in x:
+#         print(y)
+#
+# matrix[0][1] = 20  # 2->20
+# for x in matrix:
+#     for y in x:
+#         print(y)
+
+
